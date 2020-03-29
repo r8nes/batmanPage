@@ -1,0 +1,102 @@
+@media (max-width: 1200px) {
+   .container {
+      max-width: 950px;
+   }
+
+   .tabs-item {
+      font-size: 16px;
+   }
+}
+
+@media (max-width:992px) {
+   .container {
+      max-width: 740px;
+   }
+
+   .tabs {
+      flex-wrap: wrap;
+   }
+
+   .tabs-item {
+      flex-basis: 20%;
+      line-height: 2;
+   }
+
+   .tabs-content {
+      margin-bottom: 5%;
+      margin-right: 0;
+   }
+
+   .full-content {
+      flex-wrap: wrap;
+   }
+
+   .text {
+      font-size: 14px;
+   }
+
+   .actors-list {
+      font-size: 14px;
+   }
+}
+
+@media (max-width:768px) {
+   .container {
+      max-width: 560px;
+   }
+
+   .more {
+      display: none;
+   }
+
+   .tabs-item {
+      flex-basis: 35%;
+   }
+ 
+
+}
+
+@media (max-width:578px) {
+   .container {
+      max-width: 90%;
+   }
+
+   .header {
+      flex-wrap: wrap;
+   }
+
+   .search {
+      flex-basis: 100%;
+      order: 3;
+      margin-top: 5%;
+   }
+
+   .content {
+      flex-wrap: wrap;
+   }
+
+   .short-info {
+      margin-bottom: 4%;
+   }
+
+   .actors-list,
+   .actors-title {
+      display: none;
+   }
+   .movie-info {
+      flex-wrap: wrap;
+   }
+   .short-info {
+      margin-right: 0;
+   }
+   .play {
+      flex-basis: 100%;
+      margin-top: 5%;
+   }
+   .poster {
+  margin-top: -15px;
+   }
+   .button {
+      width: 100%;
+   }
+}
